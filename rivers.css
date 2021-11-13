@@ -1,0 +1,270 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat;
+}
+
+header {
+  background-image: url(https://cdn.glitch.me/fc7312bd-34f2-4704-839d-e839fd4b4cb8%2Fsalmon-kayak-banner1.jpg?v=1636543594635);
+  background-size: cover;
+  /* background-position: -70px -5px; */
+  position: relative;
+  width: 100%;
+  height: 300px;
+  padding-bottom: 25px;
+}
+
+header::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-size: cover;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  padding: 40px 150px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 170px;
+}
+
+.navbar img {
+  width: 190px;
+}
+
+.navbar-items ul li {
+  display: inline-block;
+}
+
+.navbar-items a {
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-left: 70px;
+  position: relative;
+  padding: 0.5rem;
+}
+
+.navbar-items a::after,
+.navbar-items a::before {
+  transition: all 0.5s;
+}
+
+.navbar-items a::after {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  height: 0px;
+  content: ".";
+  color: transparent;
+  background: rgb(238, 141, 13);
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+
+.navbar-items a:hover::after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+.container h1 {
+  margin-top: -15%;
+  font-size: 110px;
+  color: white;
+  text-align: center;
+  margin-bottom: 220px;
+}
+
+.text1 {
+  display: flex;
+  justify-content: center;
+}
+
+.container p {
+  font-size: 27px;
+  color: white;
+  width: 680px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.content {
+  margin: 5% 0 5% 0;
+}
+
+.container2 {
+  padding: 0 5% 0 5%;
+}
+
+.container2 h1 {
+  color: rgb(238, 141, 13);
+  font-size: 44px;
+}
+
+.container3 {
+  padding: 100px 70px 0px 70px;
+  font-family: Montserrat;
+}
+
+.page2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.4%;
+}
+
+.page2 img {
+  width: 500px;
+}
+
+.image1 a {
+  width: 400px;
+  border: 10px solid rgb(238, 92, 13);
+  border-radius: 10px;
+  background-color: rgb(238, 92, 13);
+  cursor: pointer;
+  font-size: 40px;
+  font-weight: 600;
+  transition: 0.3s;
+  color: white;
+  margin-top: 70px;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem;
+}
+
+.image1 a:hover {
+  background-color: white;
+  color: rgb(238, 92, 13);
+}
+
+.text2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.page2 h1 {
+  font-size: 60px;
+  color: rgb(238, 141, 13);
+  margin-bottom: 70px;
+  width: 500px;
+  text-align: right;
+}
+
+.page2 p {
+  width: 630px;
+  line-height: 47px;
+  font-size: 23px;
+  margin-bottom: 120px;
+  text-align: right;
+}
+
+/* .img-r {
+  display: flex;
+  width: 20px   ;
+} */
+
+.text2 p img {
+  margin-top: 25%;
+  display: inline !important;
+  padding: 5px;
+  width: 30% !important;
+}
+
+.container4 {
+  padding: 0 5% 0 5%;
+}
+
+.container4 p {
+  /* padding: 0 5% 0 5%; */
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.gambar-tengah img {
+  width: 100%;
+  height: auto;
+}
+
+/* footer */
+.container5 {
+  margin-top: 5%;
+  padding: 50px 70px 70px 70px;
+  font-family: Montserrat;
+}
+
+footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+footer img {
+  width: 180px;
+}
+
+footer h1 {
+  font-family: "Bungee", cursive;
+  color: rgb(238, 92, 13);
+}
+
+footer h3 {
+  color: rgb(238, 92, 13);
+  line-height: 30px;
+}
+
+footer p {
+  line-height: 30px;
+  font-size: 20px;
+  color: rgb(238, 141, 13);
+}
+
+.contact {
+  background-color: rgb(238, 92, 13);
+}
+
+.container6 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container6 svg {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.copy {
+  margin-bottom: 20px;
+}
+
+.copy p {
+  font-size: 20px;
+  color: rgb(238, 141, 13);
+  text-align: center;
+  font-family: Montserrat;
+}

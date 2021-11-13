@@ -9,14 +9,17 @@
 } */
 
 header {
-  background-image: url(https://cdn.glitch.me/fc7312bd-34f2-4704-839d-e839fd4b4cb8%2Flittlecolorado-wide.jpg);
+  background-image: url(https://cdn.glitch.me/fc7312bd-34f2-4704-839d-e839fd4b4cb8%2Flittlecolorado-wide.jpg?v=1636543593237);
   background-size: cover;
-  height: 100%;
+  /* background-position: -70px -5px; */
   position: relative;
+  width: 100%;
+  height: 300px;
+  padding-bottom: 25px;
 }
 
 header::after {
-  content: '';
+  content: "";
   display: block;
   width: 100%;
   height: 100%;
@@ -27,17 +30,11 @@ header::after {
   bottom: 0;
 }
 
-.container {
-  position: relative;
-  z-index: 1;
-  padding: 40px 70px;
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 170px;
+  margin-bottom: 130px;
 }
 
 .navbar img {
@@ -71,7 +68,7 @@ header::after {
   margin: auto;
   width: 100%;
   height: 0px;
-  content: '.';
+  content: ".";
   color: transparent;
   background: rgb(238, 141, 13);
   visibility: none;
@@ -85,20 +82,22 @@ header::after {
   height: 100%;
 }
 
-.container h1 {
-  font-size: 110px;
-  color: white;
-  text-align: center;
-  margin-bottom: 220px;
+.container {
+  position: relative;
+  z-index: 1;
+  padding: 40px 150px;
 }
 
 .text-about {
+  margin-top: -11%;
   font-size: 110px;
+  padding-bottom: 2px;
   text-align: center;
   color: rgb(255, 255, 255);
 }
 
 .container3 {
+  margin-bottom: 10%;
   padding: 100px 70px 0px 70px;
   font-family: Montserrat;
 }
@@ -135,9 +134,9 @@ header::after {
 }
 
 .page2 p {
-  width: 630px;
-  line-height: 47px;
-  font-size: 23px;
+  width: 600px;
+  line-height: 40px;
+  font-size: 21px;
   margin-bottom: 120px;
   text-align: right;
 }
@@ -150,18 +149,20 @@ header::after {
 .page4 {
   background-image: url(https://cdn.glitch.me/fc7312bd-34f2-4704-839d-e839fd4b4cb8%2Filustrasiii%20rafting%20terjun.png);
   background-repeat: no-repeat;
+  /* background-position: 0 -100px !important; */
   background-size: cover;
   height: 100%;
+  margin-top: -19%;
   padding-bottom: 50%;
 }
 
-.page4 a {
-  width: 400px;
+.a-contact {
+  width: 300px;
   border: 10px solid rgb(238, 92, 13);
   border-radius: 10px;
   background-color: rgb(238, 92, 13);
   cursor: pointer;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
   transition: 0.3s;
   color: white;
@@ -169,7 +170,9 @@ header::after {
   text-decoration: none;
   text-align: center;
   padding: 1rem;
+  letter-spacing: 5px;
   margin-left: 9%;
+  margin-top: 30% !important;
 }
 
 .page4 a:hover {
@@ -181,6 +184,7 @@ header::after {
   margin-top: 10% !important;
   background-color: rgb(238, 92, 13);
   font-family: Montserrat;
+  padding-bottom: 20px;
 }
 
 .page6 {
@@ -196,7 +200,11 @@ header::after {
   width: 450px;
 }
 
-.image6 img {
+.img6 {
+  margin-top: 55px;
+  padding-left: 40px;
+  padding-top: -10px !important;
+  position: absolute;
   width: 400px;
 }
 
@@ -209,11 +217,14 @@ header::after {
   color: white;
 }
 
-.text6 {
+.text6 h1 {
+  padding: 50px 0 0 0;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   text-align: right;
+  letter-spacing: 2px;
+  font-size: 44px;
 }
 
 .container7 {
