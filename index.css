@@ -1,276 +1,362 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: Montserrat;
-  }
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat;
+}
 
-  header {
-    background-image: url(https://cdn.glitch.com/fc7312bd-34f2-4704-839d-e839fd4b4cb8%2Forange-and-yellow-packrafts-rubber-boats-FVW54MR.jpg);
-    background-size: cover;
-    height: 100%;
-    position: relative;
-  }
+header {
+  background-image: url(https://cdn.glitch.com/fc7312bd-34f2-4704-839d-e839fd4b4cb8%2Forange-and-yellow-packrafts-rubber-boats-FVW54MR.jpg);
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}
 
-  header::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    background-size: cover;
-    opacity: 0.3;
-    position: absolute;
-    bottom: 0;
-  }
+header::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-size: cover;
+  opacity: 0.3;
+  position: absolute;
+  bottom: 0;
+}
 
-  .container {
-    position: relative;
-    z-index: 1;
-    padding: 40px 70px;
-  } 
+.container {
+  position: relative;
+  z-index: 1;
+  padding: 40px 70px;
+}
 
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 170px;
-  }
-  
-  .navbar img {
-    width: 190px;
-  }
-  
-  .navbar a{
-    font-size: 30px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin-left: 70px;
-  }
-  
-  .container h1{
-    font-size: 110px;
-    color: white;
-    text-align: center;
-    margin-bottom: 220px;
-  }
-  
-  .text1{
-    display: flex;
-    justify-content: center;
-  }
-  
-  .container p {
-    font-size: 27px;
-    color: white;
-    width: 680px;
-    text-align: center;
-    margin-bottom: 70px;
-  }
-  
-  .container2 {
-    background-image: url(https://cdn.glitch.com/fc7312bd-34f2-4704-839d-e839fd4b4cb8%2Filustrasi%20rafting.png);
-    position: relative;
-    background-size: cover;
-    width: 100%;
-    height: 500px;
-  }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 170px;
+}
 
-  .page1 h1{
-    padding-top: 30px;
-    padding-left: 60px;
-    font-size: 60px;
-    color: rgb(238, 141, 13);
-    margin-bottom: 35px;
-  }
-  
-  .page1 p{
-    padding-left: 60px;
-    width: 630px;
-    line-height: 47px;
-    font-size: 23px;
-    margin-bottom: 250px;
-  }
-  
-  .container3{
-    padding: 100px 70px 0px 70px;
-    font-family: Montserrat;
-  }
-  
-  .page2{
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .image1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .page2 img{
-    width: 500px;
-  }
+.navbar img {
+  width: 190px;
+}
 
-  .image1 button{
-    width: 400px;
-    height: 80px;
-    border: 10px solid rgb(238, 92, 13);
-    border-radius: 10px;
-    background-color: rgb(238, 92, 13);
-    cursor: pointer;
-    font-size: 40px;
-    font-weight: 600;
-    transition: 0.3s;
-    color: white;
-    margin-top: 70px;
-  }
+.navbar-items ul li {
+  display: inline-block;
+}
 
-  .image1 button:hover{
-    background-color: white;
-    color: rgb(238, 92, 13);
-  }
+.navbar-items a {
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-left: 70px;
+  position: relative;
+  padding: 0.5rem;
+}
 
-  .text2{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-  
-  .page2 h1{
-    font-size: 60px;
-    color: rgb(238, 141, 13);
-    margin-bottom: 70px;
-    width: 500px;
-    text-align: right;
-  }
-  
-  .page2 p{
-    width: 630px;
-    line-height: 47px;
-    font-size: 23px;
-    margin-bottom: 120px;
-    text-align: right;
-  }
-  
-  .container4{
-    padding: 90px 70px 50px 70px;
-    background-color: rgb(238, 92, 13);
-    font-family: Montserrat;
-  }
-  
-  .page3{
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .page3 h1{
-    font-size: 60px;
-    color: rgb(255, 255, 255);
-    margin-bottom: 50px;
-    width: 450px;
-  }
-  
-  .page3 p{
-    width: 630px;
-    line-height: 47px;
-    font-size: 23px;
-    margin-bottom: 70px;
-    width: 580px;
-    color: white;
-  }
-  
-  .page3 button {
-    width: 330px;
-    height: 90px;
-    border: 10px solid white;
-    border-radius: 10px;
-    background-color: rgb(238, 92, 13);
-    cursor: pointer;
-    transition: 0.3s;
-    font-size: 35px;
-    font-weight: 600;
-    color: white;
-  }
+.navbar-items a::after,
+.navbar-items a::before {
+  transition: all 0.5s;
+}
 
-  .page3 button:hover {
-    background-color: white;
-    color: rgb(238, 92, 13); 
-  }
-  
-  .image2{
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .img1{
-    width: 400px;
-    margin-left: -100px;
-    z-index: 100;
-  }
-  
-  .img2{
-    width: 450px;
-    margin-top: -50px;
-    z-index: 2;
-  }
-  
-  .container5{
-    padding: 50px 70px 70px 70px;
-    font-family: Montserrat;
-  }
-  
-  footer{
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  
-  footer img{
-    width: 180px;
-  }
-  
-  footer h1{
-    /*font-family: 'Bungee', cursive;*/
-    color: rgb(238, 92, 13);
-  }
-  
-  footer h3{
-    color: rgb(238, 92, 13);
-    line-height: 30px;
-  }
-  
-  footer p{
-    line-height: 30px;
-    font-size: 20px;
-    color: rgb(238, 141, 13);
-  }
+.navbar-items a::after {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  height: 0px;
+  content: '.';
+  color: transparent;
+  background: rgb(238, 141, 13);
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
 
-  .contact {
-    background-color: rgb(238, 92, 13);
-  }
+.navbar-items a:hover::after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
 
-  .container6 {
-    text-align: center;
-    margin-bottom: 1rem;
-  }
+.container h1 {
+  font-size: 110px;
+  color: white;
+  text-align: center;
+  margin-bottom: 220px;
+}
 
-  .container6 svg {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 8px;
-    margin-bottom: 8px;
-  }
-  
-  .copy{
-    margin-bottom: 20px;
-  
-  }
-  
-  .copy p{
-    font-size: 20px;
-    color: rgb(238, 141, 13);
-    text-align: center;
-    font-family:Montserrat;
-  }
-  
-  
+.text1 {
+  display: flex;
+  justify-content: center;
+}
+
+.container p {
+  font-size: 27px;
+  color: white;
+  width: 680px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.container2 {
+  background-image: url(https://cdn.glitch.com/fc7312bd-34f2-4704-839d-e839fd4b4cb8%2Filustrasi%20rafting.png);
+  position: relative;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.page1 h1 {
+  padding-top: 30px;
+  padding-left: 60px;
+  font-size: 60px;
+  color: rgb(238, 141, 13);
+  margin-bottom: 35px;
+}
+
+.page1 p {
+  padding-left: 60px;
+  width: 630px;
+  line-height: 47px;
+  font-size: 23px;
+  margin-bottom: 250px;
+}
+
+.container3 {
+  padding: 100px 70px 0px 70px;
+  font-family: Montserrat;
+}
+
+.page2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page2 img {
+  width: 500px;
+}
+
+.image1 a {
+  width: 400px;
+  border: 10px solid rgb(238, 92, 13);
+  border-radius: 10px;
+  background-color: rgb(238, 92, 13);
+  cursor: pointer;
+  font-size: 40px;
+  font-weight: 600;
+  transition: 0.3s;
+  color: white;
+  margin-top: 70px;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem;
+}
+
+.image1 a:hover {
+  background-color: white;
+  color: rgb(238, 92, 13);
+}
+
+.text2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.page2 h1 {
+  font-size: 60px;
+  color: rgb(238, 141, 13);
+  margin-bottom: 70px;
+  width: 500px;
+  text-align: right;
+}
+
+.page2 p {
+  width: 630px;
+  line-height: 47px;
+  font-size: 23px;
+  margin-bottom: 120px;
+  text-align: right;
+}
+
+.container4 {
+  padding: 90px 70px 50px 70px;
+  background-color: rgb(238, 92, 13);
+  font-family: Montserrat;
+}
+
+.page3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page3 h1 {
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 50px;
+  width: 450px;
+}
+
+.page3 p {
+  width: 630px;
+  line-height: 47px;
+  font-size: 23px;
+  margin-bottom: 70px;
+  width: 580px;
+  color: white;
+}
+
+.page3 button {
+  width: 330px;
+  height: 90px;
+  border: 10px solid white;
+  border-radius: 10px;
+  background-color: rgb(238, 92, 13);
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+
+.page3 button:hover {
+  background-color: white;
+  color: rgb(238, 92, 13);
+}
+
+.image2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.img1 {
+  width: 400px;
+  margin-left: -100px;
+  z-index: 100;
+}
+
+.img2 {
+  width: 450px;
+  margin-top: -50px;
+  z-index: 2;
+}
+
+.container5 {
+  padding: 50px 70px 70px 70px;
+  font-family: Montserrat;
+}
+
+footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+footer img {
+  width: 180px;
+}
+
+footer h1 {
+  font-family: 'Bungee', cursive;
+  color: rgb(238, 92, 13);
+}
+
+footer h3 {
+  color: rgb(238, 92, 13);
+  line-height: 30px;
+}
+
+footer p {
+  line-height: 30px;
+  font-size: 20px;
+  color: rgb(238, 141, 13);
+}
+
+.contact {
+  background-color: rgb(238, 92, 13);
+}
+
+.container6 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container6 svg {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.copy {
+  margin-bottom: 20px;
+}
+
+.copy p {
+  font-size: 20px;
+  color: rgb(238, 141, 13);
+  text-align: center;
+  font-family: Montserrat;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Montserrat, Arial, sans-serif;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: #06d85f;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}

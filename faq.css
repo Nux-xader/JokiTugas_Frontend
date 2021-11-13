@@ -1,0 +1,167 @@
+body {
+  background-color: #F15A24;
+  font-family: "Montserrat";
+  padding: 2em 6em;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+}
+.header {
+}
+/*--------Accordion-------*/
+.acc-kontainer {
+  width: 100%;
+  margin: auto;
+}
+.acc-kontainer .acc-body {
+  width: 98%;
+  width: calc(100% - 20px);
+  margin: 0 auto;
+  height: 0;
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.2);
+  line-height: 28px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.acc-kontainer label {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: block;
+  padding: 15px;
+  width: 100%;
+  color: #fff;
+  font-weight: 400;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.acc-kontainer input {
+  display: none;
+}
+
+.acc-kontainer label:before {
+  font-family: "FontAwesome";
+  content: "\f067";
+  font-weight: bolder;
+  float: right;
+}
+
+.acc-kontainer input:checked + label {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.acc-kontainer input:checked + label:before {
+  font-family: "FontAwesome";
+  content: "\f00d";
+  transition: 0.5s;
+}
+
+.acc-kontainer input:checked ~ .acc-body {
+  height: auto;
+  color: #fff;
+  font-size: 16px;
+  padding: 20px;
+  transition: 0.5s;
+}
+.image2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.img1 {
+  width: 400px;
+  margin-left: -100px;
+  z-index: 100;
+}
+
+.img2 {
+  width: 450px;
+  margin-top: -50px;
+  z-index: 2;
+}
+.container5 {
+  padding: 50px 70px 70px 70px;
+  font-family: Montserrat;
+  width: 100vw;
+}
+
+footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: white;
+}
+
+footer img {
+  width: 180px;
+  background-color: white;
+}
+
+footer h1 {
+  font-family: "Bungee", cursive;
+  color: rgb(238, 92, 13);
+  background-color: white;
+}
+
+footer h3 {
+  color: rgb(238, 92, 13);
+  line-height: 30px;
+  background-color: white;
+  background-color: white;
+}
+
+footer p {
+  line-height: 30px;
+  font-size: 20px;
+  color: rgb(238, 141, 13);
+  background-color: white;
+}
+
+.contact {
+  background-color: rgb(238, 92, 13);
+}
+
+.container6 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container6 svg {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.copy {
+  margin-bottom: 20px;
+}
+
+.copy p {
+  font-size: 20px;
+  color: rgb(238, 141, 13);
+  text-align: center;
+  font-family: Montserrat;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
